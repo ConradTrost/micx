@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card .inner-card {
+    @apply bg-gradient-to-br from-white via-red-300 to-red-400;
+}
+
+.card .inner-card svg {
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+}
