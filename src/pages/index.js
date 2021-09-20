@@ -16,7 +16,7 @@ const IndexPage = () => {
   return (
     <main className="bg-gradient-to-tr to-yellow-300 via-red-500 from-red-700 w-screen min-h-screen">
       <Helmet>
-        <title>MicX</title>
+        <title>MICX</title>
         <meta property="og:image" content={metaImg} />
         <meta name="twitter:image" content={metaImg} />
       </Helmet>
