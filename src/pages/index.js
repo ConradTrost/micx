@@ -9,12 +9,16 @@ import Socials from '../components/socials';
 import "@fontsource/josefin-sans";
 import "@fontsource/almarai";
 
+import metaImg from '../icons/PFP_ALT.png'
+
 // markup
 const IndexPage = () => {
   return (
     <main className="bg-gradient-to-tr to-yellow-300 via-red-500 from-red-700 w-screen min-h-screen">
       <Helmet>
         <title>MicX</title>
+        <meta property="og:image" content={metaImg} />
+        <meta name="twitter:image" content={metaImg} />
       </Helmet>
 
       <Header />
