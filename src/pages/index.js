@@ -10,6 +10,7 @@ import "@fontsource/josefin-sans";
 import "@fontsource/almarai";
 
 import metaImg from '../icons/PFP_ALT.png'
+import favicon from '../icons/MICX_LOGO.png';
 
 // markup
 const IndexPage = () => {
@@ -19,6 +20,7 @@ const IndexPage = () => {
         <title>MICX</title>
         <meta property="og:image" content={metaImg} />
         <meta name="twitter:image" content={metaImg} />
+        <link rel="icon" href={favicon} />
       </Helmet>
 
       <Header />
