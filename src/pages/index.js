@@ -27,7 +27,7 @@ const IndexPage = () => {
 
     <div className="md:flex justify-center flex-col min-h-full p-8">
       <Player />
-      <div className="lower md:flex md:w-10/12 lg:w-9/12 xl:w-7/12 mx-auto justify-between my-6">
+      <div className="lower lg:flex md:w-10/12 lg:w-9/12 xl:w-7/12 mx-auto justify-between my-6">
         <About />
         <Socials />
       </div>
