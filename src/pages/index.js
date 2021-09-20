@@ -19,7 +19,7 @@ const IndexPage = () => {
 
       <Header />
 
-    <div className="md:flex justify-center flex-col min-h-full p-6">
+    <div className="md:flex justify-center flex-col min-h-full p-8">
       <Player />
       <div className="lower md:flex md:w-7/12 mx-auto justify-between my-6">
         <About />
