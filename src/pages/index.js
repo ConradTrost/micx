@@ -18,15 +18,21 @@ const IndexPage = () => {
 
 
   React.useEffect(() => {
+    // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+    let vh = window.innerHeight * 0.01;
+    // Then we set the value in the --vh custom property to the root of the document
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+    
     setTimeout(() => {
       document.getElementById('loading-wrapper').style.display = "none";
       document.querySelector('main').style.display = "block";
     }, 3000)
   }, [])
 
+
   return (
     <div className="outer-wrapper bg-black">
-      <div id="loading-wrapper" className="loading-wrapper text-center h-screen w-screen bg-black">
+      <div id="loading-wrapper" className="loading-wrapper text-center">
         <div className="loading-inner-wrap flex flex-col justify-center h-full w-full items-center">
           <StaticImage placeholder="tracedSVG" className="w-8/12 md:w-4/12 loading-icon" src="../icons/MICX_LOGO.png" />
           <div className="title-container">
