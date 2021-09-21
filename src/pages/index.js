@@ -61,6 +61,9 @@ const IndexPage = () => {
           <About />
           <Socials />
         </div>
+        <div className="contact-section px-6 pb-6 text-center md:w-10/12 lg:w-9/12 xl:w-7/12 text-white m-auto">
+        <p>For sound and recording engineering, or other business inquiries, contact me at <a className=" underline" href="mailto:micxsound@gmail.com">micxsound@gmail.com</a></p>
+      </div>
       </div>
 
       </main>
